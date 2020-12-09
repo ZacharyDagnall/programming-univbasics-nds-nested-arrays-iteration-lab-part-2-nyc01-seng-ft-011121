@@ -1,7 +1,7 @@
 def find_min_in_nested_arrays(src)
   minimums = []             #small mothers are mini-mums
   for i in 0...src.length do
-    
+    minimums << min(src[i])
   end 
 end
 

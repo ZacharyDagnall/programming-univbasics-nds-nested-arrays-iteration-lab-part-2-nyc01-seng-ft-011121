@@ -3,6 +3,7 @@ def find_min_in_nested_arrays(src)
   for i in 0...src.length do
     minimums << min(src[i])
   end 
+  minimums 
 end
 
 def min(arr) #takes a 1-D array of nums and returns the min value
